@@ -5,7 +5,7 @@ class Cat{
     this.sex = sex
   }
   speak(){
-    return `${name} say meow`
+    return `${name} say meow!`
   }
 }
 class Dog{
@@ -14,13 +14,16 @@ class Dog{
     this.sex = sex
   }
   speak(){
-    return `${name} say `
+    return `${name} say woof!`
   }
 }
 class Bird{
   constructor(name,sex){
     this.name = name
     this.sex = sex
+  }
+  speak(){
+    this.sex === male ? `It's me! ${this.name}, the parrot!`
   }
   return `${name} say `
 }
